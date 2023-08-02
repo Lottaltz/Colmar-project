@@ -438,10 +438,12 @@ footer a:hover{
         width: 100%;
         margin: 0;
     }
-    .left-detail h3,p{
+    .left-detail h3{
        display: none;
     }
-
+    .left-detail p{
+        display: none;
+     }
     .thesis-post{
         display: none;
     }
@@ -449,8 +451,6 @@ footer a:hover{
         width: 100%;
         margin: 24px;
         padding: 16px 24px;
-        text-align: left;
-        display: inline;
     }
     footer div{
         display: none;
