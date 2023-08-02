@@ -185,7 +185,6 @@ a{
 }
 .course-container{
     width: 100%;
-    height: 100%;
     margin: 32px 72px;
     display: flex;
     justify-content: center;
@@ -194,7 +193,7 @@ a{
 }
 .card-course{
     width: 25%;
-    min-height: 320px;
+    height: 320px;
     background-color: #fff;
     margin-right: 32px;
     margin-bottom: 32px;
@@ -378,4 +377,83 @@ footer a:hover{
     #our-guest{
         background-color: #ffffff;
     }
+    .course{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .course h2{
+        font-size: 2rem;
+        color: #36393a;
+    }
+    .course-container{
+        width: 100%;
+        margin: 16px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .card-course{
+        width: 100%;
+        height: 80px;
+        background-color: #b8babb;
+        padding: 16px 16px 24px 16px;
+        margin-bottom: 8px;
+    }
+    .card-course img{
+        display: none;
+    }
+    .course-details h4{
+        display: none;
+    }
+    .course-details p{
+        display: none;
+    }
+    .thesis{
+        width: 100%;
+        padding-top: 32px;
+        margin: 0;
+    }
+    .thesis h2 {
+        font-size: 2rem;
+        color: #36393a;
+    }
+    .thesis-detail{
+        width: 100%;
+        margin: 0;
+        padding: 16px 24px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-detail{
+        width: 100%;
+        margin: 0;
+        margin-right: 24px;
+    }
+    .left-detail video{
+        width: 100%;
+        margin: 0;
+    }
+    .left-detail h3,p{
+       display: none;
+    }
+
+    .thesis-post{
+        display: none;
+    }
+    footer{
+        width: 100%;
+        margin: 24px;
+        padding: 16px 24px;
+        text-align: left;
+        display: inline;
+    }
+    footer div{
+        display: none;
+    }
+
 }
