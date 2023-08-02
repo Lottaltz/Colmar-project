@@ -311,7 +311,7 @@ footer a:hover{
     }
     .hero-title{
         width: 100%;
-        height: 300px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -457,4 +457,20 @@ footer a:hover{
         display: none;
     }
 
+}
+@media screen and (max-width: 400px ){
+    .hero-title{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 16px;
+        margin-bottom: 32px;
+        text-align: left;
+    }
+    .hero-title a{
+        width: 250px;
+    }
 }
