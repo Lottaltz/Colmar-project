@@ -144,6 +144,10 @@ a{
     display: flex;
     align-items: center;
 }
+.right-post:hover{
+    background-color: #d5d7d8;
+    cursor: pointer;
+}
 .right-post img{
     width: 35%;
     height: auto;
@@ -165,9 +169,9 @@ a{
     color: rgb(87, 68, 254);
     font-style: italic;
 }
-#our-guest{
+/* #our-guest{
     background-color: #d5d7d8;
-}
+} */
 /* course section */
 .course{
     width: 100%;
@@ -193,10 +197,14 @@ a{
 }
 .card-course{
     width: 25%;
-    height: 320px;
+    height: 350px;
     background-color: #fff;
     margin-right: 32px;
     margin-bottom: 32px;
+}
+.card-course:hover{
+    background-color: #d5d7d8;
+    cursor: pointer;
 }
 .card-course img{
     width: 100%;
@@ -247,6 +255,10 @@ a{
     display: flex;
     align-items: center;
 }
+.thesis-post:hover{
+    background-color: #d5d7d8;
+    cursor: pointer;
+}
 .thesis-post img{
     width: 35%;
     padding: 16px;
@@ -255,9 +267,9 @@ a{
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-#thesis-post-1{
+/* #thesis-post-1{
     background-color: #d5d7d8;
-}
+} */
 footer{
     width: 100%;
     padding: 16px 24px;
