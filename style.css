@@ -323,4 +323,59 @@ footer a:hover{
     }
     .hero-title a{
         width: 350px;
+    }
+    .information{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    /* information left-side */
+    .left-information{
+        display: none;
+    }
+    /* information right-side */
+    .right-information{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+    .img-desktop{
+        display: none;
+    }
+    .img-mobile{
+        display: inline;
+        width: 100%;
+    }
+    .right-post{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .right-post img{
+        width: 100%;
+        height: auto;
+    }
+    .right-post-content{
+        width: 100%;
+        padding-left: 16px;
+    }
+    .right-post-content p{
+        margin: 8px 0;
+    }
+    .right-post-content h3{
+        font-size: 1.5rem;
+    }
+    .right-post-content a{
+        color: rgb(68, 146, 254);
+    }
+    .right-post-content a:hover{
+        color: rgb(87, 68, 254);
+        font-style: italic;
+    }
+    #our-guest{
+        background-color: #ffffff;
+    }
 }
