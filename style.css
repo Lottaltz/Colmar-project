@@ -248,13 +248,16 @@ a{
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
+#thesis-post-1{
+    background-color: #d5d7d8;
+}
 footer{
     width: 100%;
     padding: 16px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #d5d7d8
+    /* background-color: #d5d7d8; */
 }
 footer div{
     width: 8%;
